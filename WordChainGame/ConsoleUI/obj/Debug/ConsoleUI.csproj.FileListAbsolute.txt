@@ -1,0 +1,10 @@
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\bin\Debug\ConsoleUI.exe
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\bin\Debug\ConsoleUI.pdb
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\bin\Debug\WordChainLib.dll
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\bin\Debug\WordChainLib.pdb
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\obj\Debug\ConsoleUI.csprojAssemblyReference.cache
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\obj\Debug\ConsoleUI.exe
+G:\GitHub\CTS285\WordChainGame\ConsoleUI\obj\Debug\ConsoleUI.pdb
