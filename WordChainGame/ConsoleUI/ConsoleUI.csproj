@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WordChainLib\WordChainLib.csproj">
+      <Project>{568cf73e-3109-49d7-881f-0820ffe9a707}</Project>
+      <Name>WordChainLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
