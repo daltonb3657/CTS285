@@ -15,6 +15,7 @@ namespace ConsoleUI
             List<string> words = new List<string>();
             bool exit = false;
             string input;
+            int score=0;
             do
             {
                 Console.Write(StandardMessages.GetWord());
@@ -23,10 +24,12 @@ namespace ConsoleUI
                 {
                     exit = true;
                     Console.WriteLine(StandardMessages.DisplayWordReusedErroer());
+                    Console.WriteLine(StandardMessages.DisplayYouLose(score));
                 }
                 else
                 {
                     words.Add(input);
+                    score +=5;
                 }
             } while (exit==false);
         }
