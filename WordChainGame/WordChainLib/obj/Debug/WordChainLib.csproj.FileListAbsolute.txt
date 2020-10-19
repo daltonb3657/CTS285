@@ -1,0 +1,6 @@
+G:\GitHub\CTS285\WordChainGame\WordChainLib\bin\Debug\WordChainLib.dll
+G:\GitHub\CTS285\WordChainGame\WordChainLib\bin\Debug\WordChainLib.pdb
+G:\GitHub\CTS285\WordChainGame\WordChainLib\obj\Debug\WordChainLib.csprojAssemblyReference.cache
+G:\GitHub\CTS285\WordChainGame\WordChainLib\obj\Debug\WordChainLib.csproj.CoreCompileInputs.cache
+G:\GitHub\CTS285\WordChainGame\WordChainLib\obj\Debug\WordChainLib.dll
+G:\GitHub\CTS285\WordChainGame\WordChainLib\obj\Debug\WordChainLib.pdb

@@ -21,8 +21,10 @@ namespace ConsoleUI
                 switch (Console.ReadLine())
                 {
                     case "1":
+                        PlayGame.Game();
                         break;
                     case "2":
+                        Scores.ListScores();
                         break;
                     case "3":
                         exit = true;

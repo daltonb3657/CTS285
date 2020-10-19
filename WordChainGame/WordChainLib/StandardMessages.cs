@@ -40,5 +40,9 @@ namespace WordChainLib
             return $"You have lost." +
                 $"\nYour score is - {score}";
         }
+        public static string GetScoreName()
+        {
+            return "Enter your name: ";
+        }
     }
 }
