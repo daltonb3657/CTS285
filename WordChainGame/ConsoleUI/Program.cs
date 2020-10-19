@@ -24,6 +24,7 @@ namespace ConsoleUI
                         PlayGame.Game();
                         break;
                     case "2":
+                        Scores.ListScores();
                         break;
                     case "3":
                         exit = true;
