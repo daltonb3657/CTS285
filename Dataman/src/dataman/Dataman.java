@@ -7,12 +7,13 @@
 package dataman;
 import java.util.Scanner;
 import java.util.Arrays;
+import java.io.*;
 
 
 public class Dataman 
 {
     
-    public static void main(String[] args) 
+    public static void main(String[] args) throws IOException
     {
         Scanner k = new Scanner(System.in);
         boolean exit = false;
@@ -26,7 +27,7 @@ public class Dataman
                     answerChecker();
                     break;
                 case "2":
-                    System.out.println("Currently under development");
+                    memoryBank();
                     break;
                 case "3":
                     exit=true;
@@ -197,6 +198,42 @@ public class Dataman
             }
         }while(exit==false);
    }
+    public static void memoryBank() throws IOException
+    {
+        Scanner k = new Scanner(System.in);        
+        FileWriter fwriter = new FileWriter("Memory.txt", true);
+        PrintWriter outputfile = new PrintWriter(fwriter);
+        String problem;
+        boolean exit=false;       
+        
+        
+        do
+        {
+            System.out.println(StandardMessages.DisplayMemoryBankMenu());
+            switch(k.nextLine())
+            {
+                case "1":
+                    System.out.print(StandardMessages.GetProblem());
+                    problem = k.nextLine();
+                    outputfile.println(problem);
+                    outputfile.close();
+                    break;
+                case "2":
+                    //TODO make code to read file and pick a random line
+                    break;
+                case "3":
+                    //TODO make score code
+                    break;
+                case "4":
+                    exit = false;
+                    break;
+                default:
+                    System.out.println(StandardMessages.DisplayMenuError());
+                    break;
+            }
+        }while(exit==false);
+        
+    }
     
     
 }

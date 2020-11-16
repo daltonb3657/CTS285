@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dataman;
 
 public class StandardMessages 
@@ -62,5 +57,14 @@ public class StandardMessages
     {
         return "You have attemeted " + attempted + " problems and have gotten "
                 + right + " correct";
+    }
+    
+    public static String DisplayMemoryBankMenu()
+    {
+        return "1.Save a problem"
+                + "\n2.Answer a problem"
+                + "\n3.Score"
+                + "\n4.Exit"
+                + "\n--> ";
     }
 }
