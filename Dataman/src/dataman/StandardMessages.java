@@ -19,6 +19,14 @@ public class StandardMessages
     {
         return "Invalid input! Please select a number from the list";
     }
+    
+    public static String DisplayAnswerCheckerMenu()
+    {
+        return "1.Enter Problem" +
+                "\n2.Score" +
+                "\n3.Exit" +
+                "\n--> ";
+    }
 
 
     public  static  String GetProblem()
@@ -48,5 +56,11 @@ public class StandardMessages
     {
         return "The answer you provided is incorrect." +
                 "\nThe correct answer is: "+input;
+    }
+    
+    public static String DisplayAnswerCheckerScore(int right, int attempted)
+    {
+        return "You have attemeted " + attempted + " problems and have gotten "
+                + right + " correct";
     }
 }
