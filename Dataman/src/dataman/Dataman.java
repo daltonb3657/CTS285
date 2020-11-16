@@ -225,7 +225,7 @@ public class Dataman
                     //TODO make score code
                     break;
                 case "4":
-                    exit = false;
+                    exit = true;
                     break;
                 default:
                     System.out.println(StandardMessages.DisplayMenuError());
