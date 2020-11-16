@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package dataman;
 
 public class StandardMessages 
@@ -18,6 +13,14 @@ public class StandardMessages
     public  static  String DisplayMenuError()
     {
         return "Invalid input! Please select a number from the list";
+    }
+    
+    public static String DisplayAnswerCheckerMenu()
+    {
+        return "1.Enter Problem" +
+                "\n2.Score" +
+                "\n3.Exit" +
+                "\n--> ";
     }
 
 
@@ -48,5 +51,20 @@ public class StandardMessages
     {
         return "The answer you provided is incorrect." +
                 "\nThe correct answer is: "+input;
+    }
+    
+    public static String DisplayAnswerCheckerScore(int right, int attempted)
+    {
+        return "You have attemeted " + attempted + " problems and have gotten "
+                + right + " correct";
+    }
+    
+    public static String DisplayMemoryBankMenu()
+    {
+        return "1.Save a problem"
+                + "\n2.Answer a problem"
+                + "\n3.Score"
+                + "\n4.Exit"
+                + "\n--> ";
     }
 }
