@@ -65,6 +65,7 @@ public class Dataman
 
                     if(addition)
                     {
+                        attempted++;
                         do
                         {
                             count++;
@@ -76,7 +77,7 @@ public class Dataman
                                 System.out.println(StandardMessages.DisplayCorrect());
                                 correct = true;
                                 answeredRight++;
-                                attempted++;
+                                
                             }
                             else if(userAnswer != correctAnswer && count ==2)
                             {
@@ -87,13 +88,13 @@ public class Dataman
                                 System.out.println(StandardMessages.DisplayWrongAnswer());
 
                             }
-
-                        } while(count!=2 && correct==false);
-                        attempted++;            
+                        } while(count!=2 && correct==false);                        
+                        k.nextLine();
                     }
 
                     else if (subtraction)
                     {
+                        attempted++;
                         do
                         {
                             count++;
@@ -104,6 +105,7 @@ public class Dataman
                             {
                                 System.out.println(StandardMessages.DisplayCorrect());
                                 correct = true;
+                                answeredRight++;
                             }
                             else if(userAnswer != correctAnswer && count ==2)
                             {
@@ -116,10 +118,12 @@ public class Dataman
                             }
 
                         } while(count!=2 && correct==false);
+                        k.nextLine();
                     }
 
                     else if (multiplication)
                     {
+                        attempted++;
                         do
                         {
                             count++;
@@ -130,6 +134,7 @@ public class Dataman
                             {
                                 System.out.println(StandardMessages.DisplayCorrect());
                                 correct = true;
+                                answeredRight++;
                             }
                             else if(userAnswer != correctAnswer && count ==2)
                             {
@@ -149,7 +154,7 @@ public class Dataman
                     }
                     else if (division)
                     {
-
+                        attempted++;
                         do
                         {
                             count++;
@@ -160,6 +165,7 @@ public class Dataman
                             {
                                 System.out.println(StandardMessages.DisplayCorrect());
                                 correct = true;
+                                answeredRight++;
                             }
                             else if(userAnswer != correctAnswer && count ==2)
                             {
@@ -172,6 +178,7 @@ public class Dataman
                             }
 
                         } while(count!=2 && correct==false);
+                        k.nextLine();
                     }
                     else
                     {
